@@ -1,7 +1,7 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faCartShopping} from "@fortawesome/free-solid-svg-icons";
 
-function Card() {
+function CardWidget() {
     return (
         <div className="carrito-compras">
             <FontAwesomeIcon icon={faCartShopping}/> <span> 0 </span>
@@ -10,4 +10,4 @@ function Card() {
     );
 }
 
-export default Card;
+export default CardWidget;

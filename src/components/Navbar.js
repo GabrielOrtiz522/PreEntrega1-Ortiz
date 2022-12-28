@@ -1,10 +1,12 @@
 import CardWidget from "./CardWidget"
 
+import logo from "../img/isotipo.png";
+
 const Navbar = () => {
     return (
         <header className="header">
 
-            <a href="#"> <img src="/img/isotipo.png" alt="Isotipo" /> </a>
+            <a href="#"> <img src={logo} alt="Isotipo" width="50px" /> </a>
 
             <nav className="nav-contenedor">
 
