@@ -4,7 +4,7 @@ const Navbar = () => {
     return (
         <header className="header">
 
-            <a href="#"> <img src="../img/isotipo.png" alt="Isotipo" /> </a>
+            <a href="#"> <img src="/img/isotipo.png" alt="Isotipo" /> </a>
 
             <nav className="nav-contenedor">
 

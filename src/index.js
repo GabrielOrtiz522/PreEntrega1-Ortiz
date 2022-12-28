@@ -8,6 +8,8 @@ import App from './components/App';
 
 import "./index.scss";
 
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
