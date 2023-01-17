@@ -1,29 +1,27 @@
-import CardWidget from "./CardWidget"
+import CardWidget from "./CardWidget";
 
 import logo from "../img/isotipo.png";
 
 const Navbar = () => {
-    return (
-        <div className="contenedor-link">
+  return (
+    <div className="contenedor-link">
+      <a href="#">
+        {" "}
+        <img src={logo} alt="Isotipo" width="50px" />{" "}
+      </a>
 
-            <a href="#"> <img src={logo} alt="Isotipo" width="50px" /> </a>
+      <nav className="nav-contenedor">
+        <a href="/src/index.js"> Inicio </a>
 
-            <nav className="nav-contenedor">
+        <a href="#"> Catálogo </a>
 
-                <a href="#"> Inicio </a>
+        <a href="#"> Contacto </a>
+      </nav>
 
-                <a href="#"> Catálogo </a> 
+      <CardWidget />
 
-                <a href="#"> ¿Quienes Somos? </a>
+    </div>
+  );
+};
 
-                <a href="#"> Contacto </a>
-
-            </nav>
-
-            <CardWidget/>
-
-      </div>
-    )
-}
-
-export default Navbar
+export default Navbar;

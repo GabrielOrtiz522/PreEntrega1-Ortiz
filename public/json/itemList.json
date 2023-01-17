@@ -1,0 +1,6 @@
+[
+    {"producto": "Pc", "descripcion": "Computadora", "precio": "100", "categoria": "Tecnologia" },
+    {"producto": "Celular", "descripcion": "Celular", "precio": "200", "categoria": "Tecnologia"},
+    {"producto": "Auto", "descripcion": "Automovil", "precio": "1500", "categoria": "Vehiculo"},
+    {"producto": "Moto", "descripcion": "Motocileta", "precio": "1000", "categoria": "Vehiculo"}
+]
