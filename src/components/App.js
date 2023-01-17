@@ -1,14 +1,13 @@
-import NavBar from "./Navbar"
-
+import Header from "./Header"
 import Main from "./Main"
-
 import Footer from "./Footer"
+
 
 const App = () => {
   return (
     <>
 
-      <NavBar/>
+      <Header/>
 
       <Main/>
 

@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Roboto:ital@0;1&display=swap');
+
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
 *{
   margin:0;
   padding:0;
@@ -23,19 +30,19 @@ a {
 
 /* *** Inicio del Nav-Bar *** */
 
-.header {
+.contenedor-link {
   background-color: white;
   display: flex;
   justify-content: space-around;
   padding: 5px;
   align-items: center;
-}
-
-.nav-contenedor {
-  display: flex;
-  text-decoration: none;
-  gap: 50px;
-  font-size: larger;
+  font-family: 'Roboto', sans-serif;
+    & .nav-contenedor {
+      display: flex;
+      text-decoration: none;
+      gap: 50px;
+      font-size: larger;
+    }
 }
 
 .carrito-compras{
@@ -76,11 +83,17 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  /* Footer al pie de página*/
+  width: 100%;
+  position: fixed;
+  bottom: 0;
   padding: 20px;
   background-color: #47a54a ;
     & h5{
       font-size: 20px;
       line-height: 30px;
+      
     }
 }
 /* *** FIn del Footer *** */
