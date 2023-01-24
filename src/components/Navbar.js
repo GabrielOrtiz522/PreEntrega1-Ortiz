@@ -1,24 +1,27 @@
+import { Link } from "react-router-dom";
 import CardWidget from "./CardWidget";
 
-import logo from "../img/isotipo.png";
+import logo from "./img/isotipo.png";
 
 const Navbar = () => {
   return (
     <div className="contenedor-link">
-      <a href="#">
-        {" "}
-        <img src={logo} alt="Isotipo" width="50px" />{" "}
-      </a>
+      
+      <Link to="/">
+        <img src={logo} alt="Isotipo" width="50px" />
+      </Link>
 
       <nav className="nav-contenedor">
-        <a href="/src/index.js"> Inicio </a>
 
-        <a href="#"> Catálogo </a>
+        <Link to={"/productos/ropa"}> Ropa </Link>
 
-        <a href="#"> Contacto </a>
+        <Link to={"/productos/accesorios"}> Accesorios </Link>
+
+        <Link to={"/productos/tecnologia"}> Tecnologia </Link>
       </nav>
 
-      <CardWidget />
+      <Link to="/cart"> <CardWidget /> </Link>
+      
 
     </div>
   );
