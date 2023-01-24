@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import CardWidget from "./CardWidget";
 
 import logo from "./img/isotipo.png";
@@ -13,11 +13,11 @@ const Navbar = () => {
 
       <nav className="nav-contenedor">
 
-        <Link to={"/productos/ropa"}> Ropa </Link>
+        <NavLink to={"/productos/ropa"}> Ropa </NavLink>
 
-        <Link to={"/productos/accesorios"}> Accesorios </Link>
+        <NavLink to={"/productos/accesorios"}> Accesorios </NavLink>
 
-        <Link to={"/productos/tecnologia"}> Tecnologia </Link>
+        <NavLink to={"/productos/tecnologia"}> Tecnologia </NavLink>
       </nav>
 
       <Link to="/cart"> <CardWidget /> </Link>
