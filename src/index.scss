@@ -61,6 +61,45 @@ a {
 
 /* *** Inicio del Main *** */
 
+.contenedor-productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1500px;
+  gap: 30px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.card-productos{
+  border-radius: 10px;
+  box-shadow: 5px 5px 8px 0px rgba(148,148,148,0.75);
+  -webkit-box-shadow: 5px 5px 8px 0px rgba(148,148,148,0.75);
+  -moz-box-shadow: 5px 5px 8px 0px rgba(148,148,148,0.75);
+  background-color: white;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+    & h5 {
+      font-size: 20px;
+      font-family: 'Roboto', sans-serif;
+    }
+    & p {
+      font-size: 25px;
+      font-family: 'Montserrat', sans-serif;
+    }
+    &:hover{
+      transform: scale(1.1);
+      transition: all 300ms ease;
+    }
+}
+
+
 
 /* *** Fin del Main *** */
 

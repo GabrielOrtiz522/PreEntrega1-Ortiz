@@ -33,7 +33,7 @@ const ItemListContainer = () => {
     return(
         <div>
 
-            {load ? `Productos Cargados` : `Cargando...`}
+            {load ? null : `Cargando...`}
 
             <ItemList productos={productos} />
 

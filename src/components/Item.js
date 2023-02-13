@@ -3,9 +3,7 @@ import { Link } from "react-router-dom";
 
 const Item = ({producto}) => {
   return (
-    <div>
-
-      <article key={producto.id}>
+      <article key={producto.id} className="card-productos" >
 
         <img src={producto.image} alt="Imagen Pre Cargada" width="170px" />
 
@@ -16,8 +14,6 @@ const Item = ({producto}) => {
         <Link to={"/item/" + producto.id}> Ver mas </Link>
 
       </article>
-
-    </div>
   );
 };
 
