@@ -13,11 +13,12 @@ const Navbar = () => {
 
       <nav className="nav-contenedor">
 
-        <NavLink to={"/productos/ropa"}> Ropa </NavLink>
+        <NavLink to={"/productos/ropa"} className="nav-link"> Ropa </NavLink>
 
-        <NavLink to={"/productos/accesorios"}> Accesorios </NavLink>
-
-        <NavLink to={"/productos/tecnologia"}> Tecnologia </NavLink>
+        <NavLink to={"/productos/accesorios"} className="nav-link"> Accesorios </NavLink>
+ 
+        <NavLink to={"/productos/tecnologia"} className="nav-link"> Tecnologia </NavLink>
+        
       </nav>
 
       <Link to="/cart"> <CardWidget /> </Link>

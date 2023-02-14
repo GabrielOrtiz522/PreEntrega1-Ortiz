@@ -11,7 +11,7 @@ const Item = ({producto}) => {
 
         <p> U$D {producto.price} </p>
 
-        <Link to={"/item/" + producto.id}> Ver mas </Link>
+        <Link to={"/item/" + producto.id} className="ver-mas-btn"> Ver mas </Link>
 
       </article>
   );
