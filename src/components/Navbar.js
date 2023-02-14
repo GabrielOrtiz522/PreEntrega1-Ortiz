@@ -18,10 +18,10 @@ const Navbar = () => {
         <NavLink to={"/productos/accesorios"} className="nav-link"> Accesorios </NavLink>
  
         <NavLink to={"/productos/tecnologia"} className="nav-link"> Tecnologia </NavLink>
-        
+
       </nav>
 
-      <Link to="/cart"> <CardWidget /> </Link>
+      <NavLink to="/cart"> <CardWidget /> </NavLink>
       
 
     </div>
