@@ -1,4 +1,5 @@
 import { BrowserRouter } from "react-router-dom"
+import CustomProvider from "./CustomProvider"
 import Header from "./Header"
 import Main from "./Main"
 import Footer from "./Footer"
@@ -7,15 +8,20 @@ import Footer from "./Footer"
 
 const App = () => {
   return (
-    <BrowserRouter>
 
-      <Header/>
+    <CustomProvider>
 
-      <Main/>
+      <BrowserRouter>
 
-      <Footer/>
+        <Header/>
 
-    </BrowserRouter>
+        <Main/>
+
+        <Footer/>
+
+      </BrowserRouter>
+
+    </CustomProvider>
   )
 }
 
